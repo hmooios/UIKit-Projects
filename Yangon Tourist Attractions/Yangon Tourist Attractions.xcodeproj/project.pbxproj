@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE7661E42B34668700660CA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7661E32B34668700660CA3 /* AppDelegate.swift */; };
+		CE7661E62B34668700660CA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7661E52B34668700660CA3 /* SceneDelegate.swift */; };
+		CE7661E82B34668700660CA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7661E72B34668700660CA3 /* ViewController.swift */; };
+		CE7661EB2B34668700660CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7661E92B34668700660CA3 /* Main.storyboard */; };
+		CE7661ED2B34668900660CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7661EC2B34668900660CA3 /* Assets.xcassets */; };
+		CE7661F02B34668900660CA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7661EE2B34668900660CA3 /* LaunchScreen.storyboard */; };
+		CE7661F82B3468EA00660CA3 /* yangonDowntown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7661F72B3468EA00660CA3 /* yangonDowntown.jpg */; };
+		CE7661FC2B346D3B00660CA3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7661FB2B346D3B00660CA3 /* DetailViewController.swift */; };
+		CE7E6EF82B348762008754D8 /* yangonSule.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7E6EF62B348761008754D8 /* yangonSule.jpg */; };
+		CE7E6EF92B348762008754D8 /* yangonShweDagon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7E6EF72B348761008754D8 /* yangonShweDagon.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE7661E02B34668700660CA3 /* Yangon Tourist Attractions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yangon Tourist Attractions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7661E32B34668700660CA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE7661E52B34668700660CA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE7661E72B34668700660CA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE7661EA2B34668700660CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE7661EC2B34668900660CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE7661EF2B34668900660CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE7661F12B34668900660CA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7661F72B3468EA00660CA3 /* yangonDowntown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yangonDowntown.jpg; sourceTree = "<group>"; };
+		CE7661FB2B346D3B00660CA3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CE7E6EF62B348761008754D8 /* yangonSule.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yangonSule.jpg; sourceTree = "<group>"; };
+		CE7E6EF72B348761008754D8 /* yangonShweDagon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yangonShweDagon.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE7661DD2B34668700660CA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE7661D72B34668600660CA3 = {
+			isa = PBXGroup;
+			children = (
+				CE7661E22B34668700660CA3 /* Yangon Tourist Attractions */,
+				CE7661E12B34668700660CA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE7661E12B34668700660CA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE7661E02B34668700660CA3 /* Yangon Tourist Attractions.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE7661E22B34668700660CA3 /* Yangon Tourist Attractions */ = {
+			isa = PBXGroup;
+			children = (
+				CE7661E32B34668700660CA3 /* AppDelegate.swift */,
+				CE7661E52B34668700660CA3 /* SceneDelegate.swift */,
+				CE7661E72B34668700660CA3 /* ViewController.swift */,
+				CE7661FB2B346D3B00660CA3 /* DetailViewController.swift */,
+				CE7661E92B34668700660CA3 /* Main.storyboard */,
+				CE7661EC2B34668900660CA3 /* Assets.xcassets */,
+				CE7661EE2B34668900660CA3 /* LaunchScreen.storyboard */,
+				CE7661F12B34668900660CA3 /* Info.plist */,
+				CE7661F72B3468EA00660CA3 /* yangonDowntown.jpg */,
+				CE7E6EF72B348761008754D8 /* yangonShweDagon.jpg */,
+				CE7E6EF62B348761008754D8 /* yangonSule.jpg */,
+			);
+			path = "Yangon Tourist Attractions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE7661DF2B34668700660CA3 /* Yangon Tourist Attractions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7661F42B34668900660CA3 /* Build configuration list for PBXNativeTarget "Yangon Tourist Attractions" */;
+			buildPhases = (
+				CE7661DC2B34668700660CA3 /* Sources */,
+				CE7661DD2B34668700660CA3 /* Frameworks */,
+				CE7661DE2B34668700660CA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yangon Tourist Attractions";
+			productName = "Yangon Tourist Attractions";
+			productReference = CE7661E02B34668700660CA3 /* Yangon Tourist Attractions.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE7661D82B34668600660CA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CE7661DF2B34668700660CA3 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = CE7661DB2B34668600660CA3 /* Build configuration list for PBXProject "Yangon Tourist Attractions" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE7661D72B34668600660CA3;
+			productRefGroup = CE7661E12B34668700660CA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE7661DF2B34668700660CA3 /* Yangon Tourist Attractions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE7661DE2B34668700660CA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7661F02B34668900660CA3 /* LaunchScreen.storyboard in Resources */,
+				CE7661F82B3468EA00660CA3 /* yangonDowntown.jpg in Resources */,
+				CE7E6EF92B348762008754D8 /* yangonShweDagon.jpg in Resources */,
+				CE7661ED2B34668900660CA3 /* Assets.xcassets in Resources */,
+				CE7E6EF82B348762008754D8 /* yangonSule.jpg in Resources */,
+				CE7661EB2B34668700660CA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE7661DC2B34668700660CA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7661E82B34668700660CA3 /* ViewController.swift in Sources */,
+				CE7661E42B34668700660CA3 /* AppDelegate.swift in Sources */,
+				CE7661E62B34668700660CA3 /* SceneDelegate.swift in Sources */,
+				CE7661FC2B346D3B00660CA3 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE7661E92B34668700660CA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE7661EA2B34668700660CA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE7661EE2B34668900660CA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE7661EF2B34668900660CA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE7661F22B34668900660CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE7661F32B34668900660CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE7661F52B34668900660CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56A7RU2L35;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yangon Tourist Attractions/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hmoo.Yangon-Tourist-Attractions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE7661F62B34668900660CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56A7RU2L35;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Yangon Tourist Attractions/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hmoo.Yangon-Tourist-Attractions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE7661DB2B34668600660CA3 /* Build configuration list for PBXProject "Yangon Tourist Attractions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7661F22B34668900660CA3 /* Debug */,
+				CE7661F32B34668900660CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7661F42B34668900660CA3 /* Build configuration list for PBXNativeTarget "Yangon Tourist Attractions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7661F52B34668900660CA3 /* Debug */,
+				CE7661F62B34668900660CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE7661D82B34668600660CA3 /* Project object */;
+}

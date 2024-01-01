@@ -17,12 +17,7 @@ class ChatViewController: UIViewController {
     
     let db = Firestore.firestore()
     
-    var messages : [Message]=[
-        Message(sender: "user1@gmail.com", body: "Hello!"),
-        Message(sender: "user2@gmail.com", body: "Hey!"),
-        Message(sender: "user1@gmail.com", body: "How are you?"),
-        
-    ]
+    var messages : [Message]=[]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +25,33 @@ class ChatViewController: UIViewController {
         title="Let's Chat"
         navigationItem.hidesBackButton=true
         tableView.register(UINib(nibName: "MessageCell", bundle: nil), forCellReuseIdentifier: "ReusableCell")
+        loadMessages()
         
+    }
+    
+    func loadMessages(){
+        db.collection("messages")
+            .order(by: "date")
+            .addSnapshotListener { querySnapshot, error in
+            self.messages=[]
+            if let e = error{
+                print(e.localizedDescription)
+            }else{
+                if let querySnapshots = querySnapshot?.documents{
+                    for doc in querySnapshots{
+                        if let sender = doc["sender"], let body = doc["body"]{
+                            let newMessage = Message(sender: sender as! String, body: body as! String)
+                            self.messages.append(newMessage)
+                            DispatchQueue.main.async{
+                                let indexPath = IndexPath(item: self.messages.count-1, section: 0)
+                                self.tableView.reloadData()
+                                self.tableView.scrollToRow(at: indexPath, at: .top, animated: true)
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
     
     @IBAction func logoutPressed(_ sender: UIBarButtonItem) {
@@ -49,7 +70,8 @@ class ChatViewController: UIViewController {
             do {
                 db.collection("messages").addDocument(data: [
                     "sender":messageSender,
-                    "body":messageBody
+                    "body":messageBody,
+                    "date":Date().timeIntervalSince1970
                 ]) { error in
                     if let e = error{
                         print("Error adding document: \(e.localizedDescription)")
@@ -74,9 +96,29 @@ class ChatViewController: UIViewController {
         }
         
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+           
+            let message = messages[indexPath.row]
+            
             let cell = tableView.dequeueReusableCell(withIdentifier: "ReusableCell", for: indexPath) as! MessageCell
-            cell.label.text = messages[indexPath.row].body
+            
+            cell.label.text = message.body
+            
+            if message.sender == Auth.auth().currentUser?.email{
+                cell.leftPersonImage.isHidden=true
+                cell.rightPersonImage.isHidden=false
+                cell.messageBubble.backgroundColor=UIColor(.black)
+                cell.label.textColor=UIColor(.green)
+            }else{
+                cell.leftPersonImage.isHidden=false
+                cell.rightPersonImage.isHidden=true
+                cell.messageBubble.backgroundColor=UIColor(.green)
+                cell.label.textColor=UIColor(.black)
+            }
+            
+            
             return cell
+            
+            
         }
         
         
